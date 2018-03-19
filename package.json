@@ -1,6 +1,7 @@
 {
   "name": "newsreader",
   "version": "0.1.0",
+  "homepage": "http://Locheed.github.io/react-rss-reader",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
