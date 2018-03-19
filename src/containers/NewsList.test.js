@@ -1,14 +1,14 @@
-// import { shallow } from "enzyme";
-// import NewsList from "./NewsList";
-// import NewsItem from "../components/NewsItem";
+import React from "react";
+import { shallow } from "enzyme";
+import NewsList from "./NewsList";
 
-// describe("<NewsList />", () => {
-//   let wrapper;
-//   beforeEach(() => {
-//     wrapper = shallow(<NewsList />);
-//   });
+describe("<NewsList />", () => {
+  let wrapper;
+  beforeEach(() => {
+    wrapper = shallow(<NewsList />);
+  });
 
-//   // it("renders NewsItems", () => {
-//   //   expect(wrapper.find(NewsItem).length).toEqual(20);
-//   // });
-// });
+  it("renders", () => {
+    shallow(<NewsList />);
+  });
+});
