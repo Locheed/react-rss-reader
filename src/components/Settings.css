@@ -1,0 +1,7 @@
+.settings-container {
+  grid-area: settings;
+  position: fixed;
+  background: coral;
+  width: 100%;
+  margin: 0;
+}
