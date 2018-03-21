@@ -3,6 +3,7 @@
 }
 
 .newslist-container ul {
+  padding-top: 100px;
   list-style: none;
   border-right: 3px solid coral;
 }
